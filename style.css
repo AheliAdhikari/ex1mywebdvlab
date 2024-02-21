@@ -1,0 +1,28 @@
+/* style.css */
+
+/* Resetting default margin and padding */
+body, h1, iframe, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the h1 */
+h1 {
+    text-align: center;
+    margin-top: 20px; /* Adding some space from the top */
+}
+
+/* Centering the iframe */
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; /* Adding some space from the top */
+}
+
+/* Centering the image */
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; /* Adding some space from the top */
+    max-width: 100%; /* Ensuring image does not exceed its container width */
+}
